@@ -1,0 +1,164 @@
+@import 'mixins';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: $default;
+  background-color: white;
+  @extend %montserrat-400;
+}
+
+.container {
+  max-width: 1168px !important;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+a,
+button {
+  outline: transparent;
+  cursor: pointer;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.logo {
+  margin-right: 15px;
+
+  @include _375 {
+    margin-right: 0;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &__top {
+    display: flex;
+    font-size: 26px;
+    @extend %montserrat-700;
+  }
+
+  &__left {
+    color: #e24545;
+
+    &::after {
+      display: none;
+      display: block;
+      content: '';
+      width: 10px;
+      height: 2px;
+      margin-top: -8px;
+      background-color: #e24545;
+    }
+  }
+
+  &__right {
+    color: #222222;
+  }
+
+  &__bottom {
+    width: 100%;
+    max-width: 80px;
+    margin-top: -4px;
+    margin-left: 4px;
+    font-size: 12px;
+    color: #444444;
+    letter-spacing: 9px;
+    @extend %montserrat-400;
+  }
+}
+
+.title {
+  padding-bottom: 40px;
+  font-size: 32px;
+  color: $title;
+  text-align: center;
+}
+
+.link {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 123px;
+  left: 0;
+  right: 0;
+  font-size: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+
+.breadcrumbs {
+  &__list {
+    display: flex;
+  }
+
+  &__link,
+  &__end {
+    color: #444444;
+    font-size: 12px;
+    text-transform: uppercase;
+    @extend %montserrat-400;
+  }
+
+  &__link {
+    &:hover {
+      color: #444444;
+      text-decoration: underline;
+    }
+  }
+
+  &__item {
+    padding-right: 40px;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('../images/icons/right-arrow.svg');
+      background-repeat: no-repeat;
+      width: 10px;
+      height: 8px;
+      right: 12px;
+      top: 9px;
+    }
+    &:last-child span {
+      padding-right: 0;
+      color: #888888;
+    }
+    &:last-child {
+      padding-right: 0;
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
+[class*='col'] {
+  margin-bottom: 60px;
+}
+
+.col-3 {
+  max-width: 262px !important;
+
+  @include _768 {
+    flex: 0 0 40% !important;
+  }
+
+  @include _425 {
+    flex: 0 0 65% !important;
+  }
+}

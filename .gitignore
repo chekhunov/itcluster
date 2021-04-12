@@ -1,0 +1,264 @@
+*/bin/*
+bin/
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+
+# Eclipse
+.settings/
+*.project
+*.classpath
+.prefs
+*.prefs
+.metadata/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+out/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Gradle
+.gradle/
+
+spring-openid/src/main/resources/application.properties
+.recommenders/
+/spring-hibernate4/nbproject/
+spring-security-openid/src/main/resources/application.properties
+
+spring-all/*.log
+
+SpringDataInjectionDemo/.mvn/wrapper/maven-wrapper.properties
+
+spring-call-getters-using-reflection/.mvn/wrapper/maven-wrapper.properties
+
+spring-check-if-a-property-is-null/.mvn/wrapper/maven-wrapper.properties
+*.springBeans
+
+20171220-JMeter.csv
+
+.factorypath
+dependency-reduced-pom.xml
+*.so
+*.dylib
+*.dll
+
+xml/src/test/resources/example_dom4j_new.xml
+xml/src/test/resources/example_dom4j_updated.xml
+xml/src/test/resources/example_jaxb_new.xml
+core-java-io/hard_link.txt
+core-java-io/target_link.txt
+core-java/src/main/java/com/baeldung/manifest/MANIFEST.MF
+ethereum/logs/
+jmeter/src/main/resources/*-JMeter.csv
+
+**/node_modules/
+**/dist
+**/tmp
+**/out-tsc
+**/nbproject/
+**/nb-configuration.xml
+core-scala/.cache-main
+core-scala/.cache-tests
+
+
+persistence-modules/hibernate5/transaction.log
+apache-avro/src/main/java/com/baeldung/avro/model/
+jta/transaction-logs/
+software-security/sql-injection-samples/derby.log
+spring-soap/src/main/java/com/baeldung/springsoap/gen/
+/report-*.json
+transaction.log
+
+# Created by .ignore support plugin (hsz.mobi)
+### macOS template
+# General
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+*/__pycache__/
+db.sqlite3
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.idea
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+
+# Rope project settings
+.ropeproject
+
+# Node rules:
+## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+## Dependency directory
+## Commenting this out is preferred by some people, see
+## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Book build output
+_book
+
+# eBook build output
+*.epub
+*.mobi
+pyneng.pdf
+
+# OS generated files #
+# ######################
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+# Vim undo files. Python#
+# #######################
+*.un~
+*.pyc
+*.swp
+
+# from0to1
+.temp/
+.temp/*
+.idea/
+.idea/*
+.history/
+.history/*
+.vscode
+*.sublime*
+npm-debug.*
+.bash_profile.save
+
+dist/
+package-lock.json
+app/css/*

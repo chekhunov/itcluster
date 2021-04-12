@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeIT store | MY WISHLIST</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  @@include('../components/_header.html')
+
+  <main class="main">
+
+    <div class="top" style="background-image: url('./images/content/top-bg.jpg');">
+
+      <div class="container">
+
+        <div class="top__inner">
+
+          <h2 class="top__title">
+            My wishlist
+          </h2>
+
+          <div class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="index.html">
+                  Home
+                </a>
+              </li>
+
+              <li class="breadcrumbs__item">
+                <span class="breadcrumbs__end" href="#">
+                  My wishlist
+                </span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <section class="content">
+      <div class="container">
+        <div class="content__wrapper">
+
+          <form action="" class="content__form">
+
+            <label for="textInput" class="content__label">Search</label>
+            <input id="textInput" class="content__search" type="text" placeholder="search" name="search">
+
+            <button id="submit" class="content__btn" type="reset" disabled>Clear list</button>
+
+          </form>
+
+          <div class=" row content__list">
+
+            @@include('../components/_content-card.html')
+
+          </div>
+
+          @@include('../components/_pagination.html')
+
+        </div>
+      </div>
+    </section>
+
+    <section class="store-features">
+      <div class="container">
+        <div class="store-features__wrapper">
+          <div class="store-features__slider">
+            <div class="store-features__items">
+              @@include('../components/_store-features.html')
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+  </main>
+
+  @@include('../components/_footer.html')
+
+  <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

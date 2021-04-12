@@ -1,0 +1,68 @@
+.content {
+  padding: 50px 0 110px;
+
+  &__list {
+    margin-left: 0;
+    margin-right: -30px;
+    padding-top: 40px;
+
+    @include _1200 {
+      justify-content: center;
+      margin-right: 0;
+    }
+  }
+
+  &__form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__label {
+    font-size: 0;
+  }
+
+  &__search {
+    height: 40px;
+    margin-right: 20px;
+
+    @include _480 {
+      width: 100%;
+    }
+
+    &:hover {
+      background-color: rgb(255, 240, 240);
+      border: 2px solid #444444;
+      border-radius: 2px;
+    }
+
+    &::placeholder {
+      padding: 0 10px;
+      color: #999999;
+    }
+  }
+
+  &__btn {
+    width: 120px;
+    height: 38px;
+    font-size: 12px;
+    background-color: transparent;
+    color: #444444;
+    text-transform: uppercase;
+    border: 2px solid #444444;
+    @extend %montserrat-400;
+
+    &:hover {
+      background-color: #444444;
+      color: white;
+    }
+  }
+}
+
+.cf:after {
+  content: '.';
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}

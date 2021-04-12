@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e24545;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="SHOPPING_BAG" data-name="SHOPPING BAG" class="cls-1" d="M1254.96,84.925h-15.92a1.009,1.009,0,0,1-1.04-.982V82.961h18v0.982A1.015,1.015,0,0,1,1254.96,84.925ZM1238,69.863a1.008,1.008,0,0,1,1.04-.981h2.77a5.2,5.2,0,0,1,10.38,0h2.77a1.014,1.014,0,0,1,1.04.981V81.978h-18V69.863Zm12.11-.981a3.12,3.12,0,0,0-6.23,0h6.23Z" transform="translate(-1238 -63.969)"/>
+</svg>
